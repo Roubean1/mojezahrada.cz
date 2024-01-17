@@ -1,0 +1,35 @@
+.novaKategorie{
+    text-align: center;
+    margin: 170px;
+}
+
+.novaKategorie label, .novaKategorie input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.novaKategorie input[type="text"], .novaKategorie input[type="number"]{
+    width: 400px;
+    height: 50px;
+}
+
+.novaKategorie label{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+.tlacitko-nova{
+    margin: 30px;
+    background-color: white;
+    text-decoration: none;
+    border:none;
+    font-family: Impact;
+    font-size:20px;
+    padding: 14px 25px;
+}
+
+.tlacitko-nova:hover{
+    background-color: #cccccc;
+}
+

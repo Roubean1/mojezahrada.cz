@@ -1,0 +1,49 @@
+Zprovoznění na virtuální hostingu na Vašem počítači:
+1. Nainstalovat XAMPP
+2. Zapnout v XAMPPU Apache a MySQL
+3. Půjdeme do zdrojové složky aplikace XAMPP, zde vybereme htdocs
+4. Do složky htdocs extrahujeme mojezahrada.rar/.zip
+5. Extrahuje se nám složky mojezahrada
+6. Do které vstoupíme a vybere soubor Databaze.php
+7. Ujistíme se, že zadané hodnoty v proměnných vypadají následovně:
+	private $server = "localhost";
+    	private $uzivatel = "root";	
+    	private $heslo = "";
+    	private $databaze = "eshop_zahrada";
+	
+	Pokud jste však nějaké nastavení na databázové serveru změnili (změná hesla, jméno uživatele,..), tak budeme možná muset přizpůsobit hodnoty vašemu nastavení.
+8. Uložte a zavřete soubor Databaze.php
+9. Otevřete prohlížeč a napiště do URL adresy: localhost/phpmyadmin, pokud se vám stránka bude dlouho načítat a nakonec se vám možná nenačte, použijte URL adresu: localhost
+ tato stránka by se vám na 100% měla načíst pokud ne zkontrolujte jestli máte všechno v XAMPPu stále zaplé. Pokud je stránka načtená, tak nahoře v navigaci klikněte na phpMyAdmin a dostanete se do zprávy databáze.
+10. V levo najdeme lištu s vytvořenými databázemi a pod tlačítkem nedávné, oblíbené a znakem řetězu najdeme obrázek válce s plusem a vedle nápis nová, tak na něj klikneme.
+11. Pro vytvoření databáze zadáme název databáze ten, který jsem zadali do proměnné $databaze, v našem případě private $databaze = "eshop_zahrada"; se naše databáze bude jmenovat eshop_zahrada a porovnávání_general_ci a klikneme na tlačítko vytvořit.
+12. Automaticky nás to přesměruje na do naší vytvořené databáze.
+13. A teď buď pomocí SQL dotazu, nebo importu souboru, který přečte soubor vloží text do SQL dotazu, který vytvoří tabulky, hodnoty, klíče, vztahy,...
+ Pomocí SQL dotazu:
+	Nahoře vedle položky Struktura je pergamen a vedle nápasi SQL, kliněte na něj. 
+	Objeví se pole pro vložení SQL dotazu.
+	Otevřete si přiložený soubor eshop_zahrada.sql a všechen text zkopíruji.
+	Zkopírovaný text vložíme do pole pro vložení SQL dotazu a klikneme na tlačítko Proveď. 
+
+ Pomocí importu souboru:
+	Nahoře si najdeme obrázek tabulky s červenou šipkou směrem k tabulce s nápisem vedle Import.
+	Klikneme zde na vybrat soubor a vybereme soubor, který jste dostali v příloze eshop_zahrada.sql.
+	Klikneme na otevřít a poté na tlačítko Import, které se nachází úplně dole.
+14.Pokud nenastala žádná chyba, tak máme vytvořenou databázi a můžeme zavřít phpMyAdmin.
+15. Nyní by měl být web zprovozněný a můžuete si ho prohlednout na adrese localhost/mojezahrada.
+
+Pokud se někde vyskytla chyba budete muset použit Google a hledat odpovědi na internetu, nebo taky můžu doporučit Youtube, nejlepší tutorialály nalezenete vždy u Indů
+Doporučuji pravidelně kontrolovat jestli máte spuštěný XAMPP občas se stane, že Apache, nebo MySQL spadne.
+
+Instalace na hosting:
+Instalace na každém hosting probíhá různě, tak můžu .
+Založte si doménu a vyberte hosting. S doménou to máte jedno jakou si vyberete.
+S hostingem může být velký problém, hlavně u těch zadarmo. Nedoporučuji webzdarma.cz, Endoru. 
+Dopručuji použít trialhosting.cz, kde projdeme dlouhý procesem registrace + vytvářením účtu na Moje ID.
+Ale všechno funguje a není problém.
+Soubory s webovou stránkou budete muset nahrát na FTP server.
+Připojte web k databázi.
+A soubor s databázi nahrajeme na databázový server.
+A musíme odzkoušet celou stránku, jestli všechno funguje.
+Všechno by mělo být funkční na verzi PHP 8.2, pokud budete mít starší může být problém.
+Můžou taky nastat problémy při práci s databází, takže si nechce vypsat error na stránce, abyste je mohli spravit. Např. úpravou některých nastavení tabulek. Taky je možnost se přes Linuxový server extrahovat soubor s errory a dolaďovat chyby.

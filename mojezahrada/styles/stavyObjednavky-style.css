@@ -1,0 +1,21 @@
+.pridat-stav{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.pridat-stav label, .pridat-stav input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+textarea{
+    width: 400px;
+    height: 50px;
+}
+
+
+.aktualizovatObjednavku{
+    text-align: center;
+    margin: 100px;
+}

@@ -1,0 +1,23 @@
+.vypisKategorie{
+    width: 100%;
+    margin: 250px 0px;
+}
+
+.vypisKategorie th, .vypisKategorie td, .vypisKategorie tr{
+    width: 9%;
+    border-bottom: solid;
+    text-align: center;
+    font-size: 18px;
+}
+
+.novy{
+    width: 200px;
+    height: 50px;
+}
+
+.novy a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact;
+    font-size: 20px;
+}

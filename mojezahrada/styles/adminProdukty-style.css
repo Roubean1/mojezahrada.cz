@@ -1,0 +1,37 @@
+.vypisProduktu{
+    width: 100%;
+    margin: 250px 0px;
+}
+
+.vypisProduktu th, .vypisProduktu td, .vypisProduktu tr{
+    width: 9%;
+    height: 10%;
+    border-bottom: solid;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nahledProduktu{
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.novy-produkt{
+    width: 200px;
+    height: 50px;
+}
+
+.novy-produkt{
+    margin: 30px;
+    background-color: white;
+    border:none;
+
+}
+
+.novy-produkt a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact;
+    font-size: 20px;
+}

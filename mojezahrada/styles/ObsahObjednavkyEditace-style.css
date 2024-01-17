@@ -1,0 +1,36 @@
+.upravaObsahuObjednavky{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.upravaObsahuObjednavky label, .upravaObsahuObjednavky input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.upravaObsahuObjednavky input[type="text"], .upravaObsahuObjednavky input[type="number"]{
+    width: 400px;
+    height: 50px;
+}
+
+
+.upravaObsahuObjednavky label{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+.aktualizovatObsah{
+    margin: 30px;
+    background-color: white;
+    text-decoration: none;
+    border:none;
+    font-family: Impact;
+    font-size:20px;
+    padding: 14px 25px;
+}
+
+.aktualizovatObsah:hover{
+    background-color: #cccccc;
+}

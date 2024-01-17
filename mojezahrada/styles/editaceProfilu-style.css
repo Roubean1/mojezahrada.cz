@@ -1,0 +1,34 @@
+.editaceProfilu{
+    text-align: center;
+    margin: 100px;
+}
+
+
+
+.editaceProfilu input[type="email"],
+.editaceProfilu input[type="text"],
+.editaceProfilu input[type="number"]{
+    width: 400px;
+    height: 50px;
+}
+
+.aktualizovat-profil{
+    margin: 30px;
+    background-color: white;
+    text-decoration: none;
+    border:none;
+    font-family: Impact;
+    font-size:20px;
+    padding: 14px 25px;
+
+}
+
+
+.aktualizovat-profil:hover{
+    background-color: #cccccc;
+}
+
+.editaceProfilu label, .editaceProfilu input{
+    font-family: Impact;
+    font-size: 25px;
+}

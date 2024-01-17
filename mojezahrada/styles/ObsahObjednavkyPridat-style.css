@@ -1,0 +1,15 @@
+.obsahObjednavka{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.obsahObjednavka label, .obsahObjednavka input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.obsahObjednavka input[type="text"], .novyProdukt input[type="number"], .novyProdukt input[type="file"],.novyProdukt select{
+    width: 400px;
+    height: 50px;
+}

@@ -1,0 +1,42 @@
+.novyProdukt{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.novyProdukt label, .novyProdukt input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.novyProdukt input[type="text"], .novyProdukt input[type="number"], .novyProdukt input[type="file"],.novyProdukt select{
+    width: 400px;
+    height: 50px;
+}
+
+
+.novyProdukt textarea{
+    width: 400px;
+    height: 150px;
+}
+
+.novyProdukt label{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+.aktualizovatProfil{
+    margin: 30px;
+    background-color: white;
+    text-decoration: none;
+    border:none;
+    font-family: Impact;
+    font-size:20px;
+    padding: 14px 25px;
+}
+
+.aktualizovatProfil:hover {
+    margin: 150px;
+
+}

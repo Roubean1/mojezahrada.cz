@@ -1,0 +1,35 @@
+.upravaUzivatele{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.upravaUzivatele label, .upravaUzivatele input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.upravaUzivatele input[type="text"], .upravaUzivatele input[type="number"]{
+    width: 400px;
+    height: 50px;
+}
+
+
+.aktualizovatProfil{
+    text-align: center;
+    margin: 100px;
+}
+
+.tlacitko-aktualizovatUzivatele{
+    margin: 30px;
+    background-color: white;
+    text-decoration: none;
+    border:none;
+    font-family: Impact;
+    font-size:20px;
+    padding: 14px 25px;
+}
+
+.tlacitko-aktualizovatUzivatele:hover{
+    background-color: #cccccc;
+}

@@ -1,0 +1,17 @@
+.nadpisProduktu{
+    font-size: 60px;
+    font-family: Impact;
+    color: rgba(0, 0, 0, 0.8);
+}
+.kategorie-Uzivatele{
+    display: block;
+    text-decoration: none;
+    color: #51786EFF;
+    font-family: Impact;
+    font-size: 45px;
+}
+
+.center{
+    text-align: center;
+    margin: 250px;
+}

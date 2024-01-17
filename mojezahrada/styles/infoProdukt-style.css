@@ -1,0 +1,75 @@
+.obrazekProdutku{
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.obrazek img {
+
+}
+
+.obrazekProdutku-container{
+    float: left;
+    margin-right: 70px;
+}
+
+
+.nadpisProduktu{
+    margin-top: 150px;
+    margin-bottom: 35px;
+    color: #51786E;
+    font-size: 40px;
+    font-family: "Impact";
+}
+
+.cenaProduktu{
+    color: #2f3e46;
+    font-size: 30px;
+}
+
+.kodProdukt{
+
+}
+
+.doKosikuProdukt, .doOblibenychProdukt{
+    display: block;
+}
+
+.doOblibenychProdukt, .doKosikuProdukt{
+    text-align: left;
+    padding-left: 10px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.doKosikuProdukt i,.doOblibenychProdukt i{
+    margin-right: 8px;
+    margin-left: 10px
+}
+
+.cistic{
+    clear:both;
+}
+
+.popis{
+    margin: 20px 100px;
+    text-align: justify;
+}
+
+.parametryProduktu{
+    width: 100%;
+}
+
+.parametryProduktu th, .parametryProduktu tr, .parametryProduktu td{
+    width: 50%;
+}
+
+.komentareProduktu{
+    width: 100%;
+}
+
+.komentareProduktu th, .komentareProduktu tr, .komentareProduktu td{
+    width: 50%;
+}

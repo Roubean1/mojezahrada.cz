@@ -1,0 +1,17 @@
+.aktualizovatStav{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.aktualizovatStav label, .aktualizovatStav input{
+    font-family: Impact;
+    font-size: 25px;
+}
+
+textarea{
+    width: 400px;
+    height: 50px;
+}
+
+

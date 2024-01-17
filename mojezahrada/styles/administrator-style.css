@@ -1,0 +1,19 @@
+.administrace{
+    text-align: center;
+    margin: 300px 150px;
+}
+
+.admin{
+    margin: 20px;
+}
+
+.admin{
+    font-size: 20px;
+    width: 350px;
+    height: 100px;
+}
+
+.administrace button{
+    text-decoration: none;
+    font-family: Impact;
+}

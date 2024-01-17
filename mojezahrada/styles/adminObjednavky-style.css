@@ -1,0 +1,30 @@
+.vypisObjednavek{
+    width: 100%;
+    margin: 250px 0px;
+}
+
+.vypisObjednavek th, .vypisObjednavek td, .vypisObjednavek tr{
+    width: 9%;
+    border-bottom: solid;
+    text-align: center;
+    font-size: 18px;
+}
+
+.novy-produkt{
+    width: 200px;
+    height: 50px;
+}
+
+.novy-produkt{
+    margin: 30px;
+    background-color: white;
+    border:none;
+
+}
+
+.novy-produkt a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact;
+    font-size: 20px;
+}

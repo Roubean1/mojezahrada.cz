@@ -1,0 +1,35 @@
+.nadpis-kategorieProdukt{
+    font-size: 60px;
+    font-family: Impact;
+    color: rgba(0, 0, 0, 0.8);
+}
+.kategorie-Produkt{
+    display: block;
+    text-decoration: none;
+    color: #51786EFF;
+    font-family: Impact;
+    font-size: 45px;
+}
+
+.center{
+    text-align: center;
+}
+
+.novy-produkt{
+    width: 200px;
+    height: 50px;
+}
+
+.novy-produkt{
+    margin: 30px;
+    background-color: white;
+    border:none;
+
+}
+
+.novy-produkt a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact;
+    font-size: 20px;
+}

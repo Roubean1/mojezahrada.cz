@@ -1,0 +1,11 @@
+.vypisObsahuObjednavky{
+    width: 100%;
+    margin: 250px 0px;
+}
+
+.vypisObsahuObjednavky th, .vypisObsahuObjednavky td, .vypisObsahuObjednavky tr{
+    width: 9%;
+    border-bottom: solid;
+    text-align: center;
+    font-size: 18px;
+}
